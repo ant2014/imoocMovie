@@ -1,0 +1,30 @@
+{
+  "name": "imooc",
+  "version": "0.0.1",
+  "description": "this is my imooc movie 1",
+  "main": "xxx",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "imooc",
+    "movie",
+    "1"
+  ],
+  "authors": [
+    "wubo"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.coolwubo.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}

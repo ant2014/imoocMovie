@@ -1,0 +1,24 @@
+{
+  "name": "imooc",
+  "version": "0.0.1",
+  "description": "this is my first node project imooc movie",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "~1.12.2",
+    "express": "~4.12.3",
+    "jade": "~1.9.2",
+    "mongoose": "~4.0.1",
+    "underscore": "~1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imooc",
+    "movie",
+    "1"
+  ],
+  "author": "coolwubo",
+  "license": "ISC"
+}

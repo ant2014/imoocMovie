@@ -1,0 +1,23 @@
+extends ../layout.jade
+
+block content
+  .container
+    .row
+      form.form-horizontal(method="post",action="/admin/movie/new")
+        //- input(type="hidden",name="movie.id",value="ss")
+        input(type="text",name="movie[_id]",value="#{movie._id}")
+        .form-group
+          label.col-sm-2.control-label(for="inputTitle") movie name
+          .col-sm-10
+            input#inputTitle.form-control(type="text",name="movie[title]",value="#{movie.title}")
+        .form-group
+          label.col-sm-2.control-label(for="inputDaoyan") movie daoyan
+          .col-sm-10
+            input#inputDaoyan.form-control(type="text",name="movie[doctor]",value="#{movie.doctor}")
+        .form-group
+          label.col-sm-2.control-label(for="inputGuojia") movie guojia
+          .col-sm-10
+            input#inputGuojia.form-control(type="text",name="movie[country]",value="#{movie.country}")
+        .form-group
+          .col-sm-offset-2.col-sm-10
+          button.btn.btn-default(type = "submit") luru
